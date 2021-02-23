@@ -12,9 +12,7 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate, BluetoothCommunicationDelegate {
 
     var communication: BluetoothCommunication!
-
-    var firstMeasurement = true
-    var pasteMode = Mode.paste
+    var pasteMode = PasteMode.paste
 
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
@@ -144,8 +142,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, BluetoothCommunicationDelega
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-
-        //Set menu bar icon
+        // Set menu bar icon
         statusItem.menu = statusMenu
         statusMenu.autoenablesItems = false
         if let button = statusItem.button {
@@ -166,7 +163,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, BluetoothCommunicationDelega
         checkAndAskForAssistiveAccess()
 
         //Load last paste mode
-        pasteMode = loadPasteModeFromUserPrefs()
+        pasteMode = loadPasteModeFromUserDefaults()
 
         updateView()
     }
