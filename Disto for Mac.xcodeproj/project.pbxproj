@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01922BA2537675B00D400C6 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01922B92537675B00D400C6 /* Preferences.swift */; };
 		D03C155B22FC1E1A00935DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C155A22FC1E1A00935DF7 /* AppDelegate.swift */; };
-		D03C155D22FC1E1A00935DF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C155C22FC1E1A00935DF7 /* ViewController.swift */; };
 		D03C155F22FC1E1C00935DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03C155E22FC1E1C00935DF7 /* Assets.xcassets */; };
 		D03C156222FC1E1C00935DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03C156022FC1E1C00935DF7 /* Main.storyboard */; };
+		D041913422FC386F00D433CB /* BluetoothCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041913322FC386F00D433CB /* BluetoothCommunication.swift */; };
+		D05EBCAF25E4F0F700749D37 /* unusedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05EBCAE25E4F0F700749D37 /* unusedCode.swift */; };
+		D05EBCB825E4FC1700749D37 /* paste.scpt in Resources */ = {isa = PBXBuildFile; fileRef = D05EBCB725E4FC1700749D37 /* paste.scpt */; };
+		D05EBCBF25E4FF6100749D37 /* pasteAndMatchStyle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = D05EBCBE25E4FF6100749D37 /* pasteAndMatchStyle.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D01922B92537675B00D400C6 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		D03C155722FC1E1A00935DF7 /* Disto for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disto for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03C155A22FC1E1A00935DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D03C155C22FC1E1A00935DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D03C155E22FC1E1C00935DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D03C156122FC1E1C00935DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D03C156322FC1E1C00935DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D03C156422FC1E1C00935DF7 /* Disto_for_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Disto_for_Mac.entitlements; sourceTree = "<group>"; };
+		D041913322FC386F00D433CB /* BluetoothCommunication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothCommunication.swift; sourceTree = "<group>"; };
+		D05EBCAE25E4F0F700749D37 /* unusedCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unusedCode.swift; sourceTree = "<group>"; };
+		D05EBCB725E4FC1700749D37 /* paste.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = paste.scpt; sourceTree = "<group>"; };
+		D05EBCBE25E4FF6100749D37 /* pasteAndMatchStyle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = pasteAndMatchStyle.scpt; sourceTree = "<group>"; };
+		D0E64AE625126DE200F42B79 /* Disto for Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Disto for Mac.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +61,26 @@
 		D03C155922FC1E1A00935DF7 /* Disto for Mac */ = {
 			isa = PBXGroup;
 			children = (
+				D05EBCB225E4F48000749D37 /* scripts */,
+				D0E64AE625126DE200F42B79 /* Disto for Mac.entitlements */,
 				D03C155A22FC1E1A00935DF7 /* AppDelegate.swift */,
-				D03C155C22FC1E1A00935DF7 /* ViewController.swift */,
+				D05EBCAE25E4F0F700749D37 /* unusedCode.swift */,
+				D01922B92537675B00D400C6 /* Preferences.swift */,
+				D041913322FC386F00D433CB /* BluetoothCommunication.swift */,
 				D03C155E22FC1E1C00935DF7 /* Assets.xcassets */,
 				D03C156022FC1E1C00935DF7 /* Main.storyboard */,
 				D03C156322FC1E1C00935DF7 /* Info.plist */,
-				D03C156422FC1E1C00935DF7 /* Disto_for_Mac.entitlements */,
 			);
 			path = "Disto for Mac";
+			sourceTree = "<group>";
+		};
+		D05EBCB225E4F48000749D37 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				D05EBCBE25E4FF6100749D37 /* pasteAndMatchStyle.scpt */,
+				D05EBCB725E4FC1700749D37 /* paste.scpt */,
+			);
+			path = scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,6 +93,7 @@
 				D03C155322FC1E1900935DF7 /* Sources */,
 				D03C155422FC1E1900935DF7 /* Frameworks */,
 				D03C155522FC1E1900935DF7 /* Resources */,
+				D088991425164FC5009B0AF9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -90,7 +111,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Stephan Schöpe";
 				TargetAttributes = {
 					D03C155622FC1E1900935DF7 = {
@@ -123,18 +144,42 @@
 			files = (
 				D03C155F22FC1E1C00935DF7 /* Assets.xcassets in Resources */,
 				D03C156222FC1E1C00935DF7 /* Main.storyboard in Resources */,
+				D05EBCB825E4FC1700749D37 /* paste.scpt in Resources */,
+				D05EBCBF25E4FF6100749D37 /* pasteAndMatchStyle.scpt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D088991425164FC5009B0AF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D03C155322FC1E1900935DF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03C155D22FC1E1A00935DF7 /* ViewController.swift in Sources */,
+				D041913422FC386F00D433CB /* BluetoothCommunication.swift in Sources */,
 				D03C155B22FC1E1A00935DF7 /* AppDelegate.swift in Sources */,
+				D05EBCAF25E4F0F700749D37 /* unusedCode.swift in Sources */,
+				D01922BA2537675B00D400C6 /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,13 +223,14 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -203,13 +249,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -239,13 +285,14 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -258,12 +305,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -271,15 +318,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Disto for Mac/Disto_for_Mac.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Disto for Mac/Disto for Mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A5WNXVA3B7;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Disto for Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stephanschoepe.Disto-for-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -290,15 +342,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Disto for Mac/Disto_for_Mac.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Disto for Mac/Disto for Mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A5WNXVA3B7;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Disto for Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stephanschoepe.Disto-for-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
