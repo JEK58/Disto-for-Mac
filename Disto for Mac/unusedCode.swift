@@ -1,10 +1,7 @@
 //
 //  unusedCode.swift
 //  Disto for Mac
-//
-//  Created by Stephan Schöpe on 23.02.21.
-//  Copyright © 2021 Stephan Schöpe. All rights reserved.
-//
+
 
 import Foundation
 

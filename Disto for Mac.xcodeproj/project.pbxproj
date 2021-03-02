@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -112,7 +112,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1200;
-				ORGANIZATIONNAME = "Stephan Schöpe";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					D03C155622FC1E1900935DF7 = {
 						CreatedOnToolsVersion = 10.3;
@@ -120,7 +120,7 @@
 				};
 			};
 			buildConfigurationList = D03C155222FC1E1900935DF7 /* Build configuration list for PBXProject "Disto for Mac" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

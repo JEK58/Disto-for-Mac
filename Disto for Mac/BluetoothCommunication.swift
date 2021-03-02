@@ -4,7 +4,7 @@
 //
 //  Created by Stefan on 17.10.17.
 //  Copyright © 2017 Hanshans. All rights reserved.
-//  Modified by Stephan Schöpe
+//  Modified by JEK58
 
 import CoreBluetooth
 

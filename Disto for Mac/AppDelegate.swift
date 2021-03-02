@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
 //  Disto for Mac
-//
-//  Created by Stephan Schöpe on 08.08.2019.
-//  Copyright © 2019 Stephan Schöpe. All rights reserved.
-//
 
 import Cocoa
 
