@@ -12,5 +12,5 @@ If the app opened you will find a small laser icon in the menu bar. Just switch 
 
 If you need any help feel free to contact me.
 
-
+### Credits
 Original Bluetooth delegation by Hanshans
