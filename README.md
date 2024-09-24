@@ -1,6 +1,8 @@
 # Disto for Mac
 Mac Bluetooth helper for Leica distance laser measurement devices. (Leica only provides a windows version…)
 
+⚠️ **If you want to use this to measure your paraglider I can highly recommend [we-measure.io](https://we-measure.io). You don't even need this driver then as it uses the browsers Bluetooth-API.**
+
 ## How to use
 
 I do not have an Apple developer account and cannot sign the application. To use it you need to right click on the icon and choose Open (or whatever language you have set). MacOS may tell you that it is unsafe to use and you may need to go to the Security pane and allow it to open. Again, this is because it's not signed (a developer account costs 99€ a year, but as I'm giving this software away for free, I'm not planning on getting one).
